@@ -1,0 +1,16 @@
+{
+  "name": "node-typescript-boilerplate",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch src/index.ts"
+  },
+  "dependencies": {
+    "tsx": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "prettier": "^3.2.5"
+  }
+}
