@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.12.7",
+    "lefthook": "^1.6.10",
     "prettier": "^3.2.5"
   }
 }
