@@ -2,9 +2,13 @@
   "name": "node-typescript-boilerplate",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">= 20 < 21"
+  },
   "scripts": {
-    "dev": "tsx --watch src/index.ts"
+    "dev": "tsx --no-warnings --env-file=.env --watch src/index.ts",
+    "start": "tsx --no-warnings --env-file=.env src/index.ts"
   },
   "dependencies": {
     "tsx": "^4.7.2"
