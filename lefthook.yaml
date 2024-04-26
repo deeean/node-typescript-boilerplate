@@ -2,7 +2,4 @@ pre-commit:
   parallel: true
   commands:
     prettier:
-      run: yarn prettier
-
-    eslint:
       run: yarn lint
